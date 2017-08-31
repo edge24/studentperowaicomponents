@@ -35,8 +35,8 @@ export class AppComponent {
     const studYearPattern = /^[1-5]+$/;
 
     if(this.checkPatterns(this.studNo, studNumberPattern) && this.checkPatterns(this.studFname,stringPattern)
-    && this.checkPatterns(this.studLname, stringPattern) && this.checkPatterns(this.studProg, stringPattern)
-    && this.checkPatterns(this.studYr, studYearPattern)){
+      && this.checkPatterns(this.studLname, stringPattern) && this.checkPatterns(this.studProg, stringPattern)
+      && this.checkPatterns(this.studYr, studYearPattern)){
       
       this.studentRecord = {
         studNumber: this.studNo,

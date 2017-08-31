@@ -8,6 +8,10 @@ label{
     color: #09a;
 }
 
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
 div#options{
     margin: 10px;
 }
